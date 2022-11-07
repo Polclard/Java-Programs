@@ -70,9 +70,9 @@ class HelloWorld {
         int [] list = {1,4,3,2,7,10,8,5,6,9};
         //int [] list = {1,3,2,4,5,7};
 
-        System.out.println("Pred");
+        System.out.println("Before");
         System.out.println(Arrays.toString(list));
-        System.out.println("Potoa");
+        System.out.println("After");
         int [] newList = sort(list, list.length);
         System.out.println(Arrays.toString(newList));
 
